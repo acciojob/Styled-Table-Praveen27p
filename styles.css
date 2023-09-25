@@ -1,1 +1,34 @@
 /* your code */
+.styledtable {
+    border-collapse: collapse;
+    margin: 25px ;
+    font-size: 0.6em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styledtable thead tr {
+    background-color:#315992 ;
+    color: #ffffff;
+    text-align: left;
+}
+.styledtable th,
+.styledtable td {
+    padding: 8px 32px;
+}
+.styledtable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styledtable tbody tr:nth-of-type(even) {
+    background-color:#e0e0e0;
+}
+.styledtable tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.tableborder{
+	
+	 border-radius:50px 25px;
+}
+
